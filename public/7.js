@@ -119,29 +119,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Depan",
@@ -198,7 +175,7 @@ var staticRenderFns = [
           _c(
             "a",
             { attrs: { href: "https://www.nobleui.com", target: "_blank" } },
-            [_vm._v("Provinsi Bengkulu")]
+            [_vm._v("Padang Panjang")]
           ),
           _vm._v(". All rights\n                    reserved")
         ])
@@ -232,10 +209,10 @@ var render = function() {
     [
       _c(
         "b-navbar",
-        { attrs: { toggleable: "lg", type: "dark", variant: "info" } },
+        { attrs: { toggleable: "lg", type: "dark", variant: "primary" } },
         [
           _c("b-navbar-brand", { attrs: { href: "#" } }, [
-            _vm._v("PPDB Bengkulu")
+            _vm._v("PPDB Padang Panjang")
           ]),
           _vm._v(" "),
           _c("b-navbar-toggle", { attrs: { target: "nav-collapse" } }),
@@ -331,16 +308,6 @@ var render = function() {
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-12" }, [
-          _c("div", { staticClass: "alert bg-primary" }, [
-            _c("h5", { staticClass: "text-white" }, [
-              _vm._v(
-                "Perhatian! Pendaftaran jalur zonasi SMA telah ditutup. Pengumuman akhir jalur zonasi akan di umumkan tanggal 8 Juli 2020. Siswa yang masih ingin mencetak bukti daftar bisa masuk ke panel pendaftaran"
-              )
-            ])
-          ])
-        ]),
-        _vm._v(" "),
         _c("div", { staticClass: "col-lg-4 row-cols-1 col-12" }, [
           _c("div", { staticClass: "card" }, [
             _c("div", { staticClass: "card-header" }, [
@@ -351,17 +318,6 @@ var render = function() {
               "div",
               { staticClass: "card-body text-center" },
               [
-                _c("img", {
-                  staticClass: "img-fluid",
-                  attrs: {
-                    src: "http://demo1.provbengkulu.com/icon/iconlogin.jpg"
-                  }
-                }),
-                _vm._v(" "),
-                _c("br"),
-                _vm._v(" "),
-                _c("br"),
-                _vm._v(" "),
                 _c(
                   "InertiaLink",
                   {
@@ -373,54 +329,10 @@ var render = function() {
                       "\n                            Pengumuman\n                        "
                     )
                   ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "a",
-                  {
-                    staticClass: "btn btn-secondary text-white",
-                    attrs: { href: "http://siswa.provbengkulu.com" }
-                  },
-                  [
-                    _vm._v(
-                      "\n                            Pendaftaran\n                        "
-                    )
-                  ]
                 )
               ],
               1
             )
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-lg-8 col-12" }, [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-header" }, [
-              _vm._v("\n                        Home\n                    ")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _c(
-                "figure",
-                {
-                  staticClass: "text-center",
-                  attrs: { "data-v-11989bc6": "" }
-                },
-                [
-                  _c("img", {
-                    attrs: {
-                      "data-v-11989bc6": "",
-                      src: "http://demo1.provbengkulu.com/icon/iconhome.png",
-                      alt: "",
-                      width: "200"
-                    }
-                  })
-                ]
-              ),
-              _vm._v(
-                "\n                        Surat Edaran Menteri Kemendikbud No.4 Tahun 2020 terkait mekanisme PPDB yang mengikuti protokol kesehatan untuk mencegah penyebaran Covid-19, termasuk mencegah berkumpulnya siswa dan orang tua secara fisik di sekolah.\n\n                        Permendikbud No 44 Tahun 2019 tentang Penerimaan Peserta Didik Baru (PPDB). Khususnya terkait Jalur Zonasi, Jalur Afirmasi, Jalur Perpindahan Orang Tua/Wali, dan Jalur Prestasi\n                    "
-              )
-            ])
           ])
         ])
       ])

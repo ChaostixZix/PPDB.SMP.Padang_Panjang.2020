@@ -213,7 +213,7 @@ var staticRenderFns = [
           _c(
             "a",
             { attrs: { href: "https://www.nobleui.com", target: "_blank" } },
-            [_vm._v("Provinsi Bengkulu")]
+            [_vm._v("Padang Panjang")]
           ),
           _vm._v(". All rights\n                    reserved")
         ])
@@ -247,10 +247,10 @@ var render = function() {
     [
       _c(
         "b-navbar",
-        { attrs: { toggleable: "lg", type: "dark", variant: "info" } },
+        { attrs: { toggleable: "lg", type: "dark", variant: "primary" } },
         [
           _c("b-navbar-brand", { attrs: { href: "#" } }, [
-            _vm._v("PPDB Bengkulu")
+            _vm._v("PPDB Padang Panjang")
           ]),
           _vm._v(" "),
           _c("b-navbar-toggle", { attrs: { target: "nav-collapse" } }),
