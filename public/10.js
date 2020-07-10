@@ -328,21 +328,11 @@ var render = function() {
     _c("div", { staticClass: "col-12" }, [
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-12" }, [
-          _c("div", {
-            staticClass: "jumbotron",
-            style:
-              "background-image: url(" +
-              _vm.$route("depan.index") +
-              "img/slide.jpeg); background-repeat: no-repeat; background-size: 100% 100%;"
-          })
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-12" }, [
           _c("div", { staticClass: "card" }, [
             _c("div", { staticClass: "card-header bg-info text-white" }, [
-              _vm._v("\n                        List SMP\n                    ")
+              _vm._v(
+                "\n                            List SMP\n                        "
+              )
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "card-body" }, [

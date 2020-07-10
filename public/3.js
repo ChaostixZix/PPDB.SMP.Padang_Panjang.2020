@@ -29,24 +29,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "PengumumanSMP",
@@ -88,48 +70,6 @@ var render = function() {
               _vm._v(
                 "\n                        Hasil pengumuman Zonasi telah dibuka. Silahkan melihat di menu Zonasi\n                    "
               )
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("br"),
-        _vm._v(" "),
-        _c("div", { staticClass: "card" }, [
-          _c("div", { staticClass: "card-body" }, [
-            _c("h6", { staticClass: "card-title" }, [_vm._v("Timeline")]),
-            _vm._v(" "),
-            _c("div", { attrs: { id: "content" } }, [
-              _c("ul", { staticClass: "timeline" }, [
-                _c(
-                  "li",
-                  {
-                    staticClass: "event",
-                    attrs: { "data-date": "22 Juni - 27 Juni" }
-                  },
-                  [
-                    _c("h3", [_vm._v("PPDB SMA Tahap 1")]),
-                    _vm._v(" "),
-                    _c("p", [
-                      _vm._v(
-                        "Pendaftaran SMA Jalur Prestasi, Afirmasi, dan Pindah Tugas."
-                      )
-                    ])
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "li",
-                  {
-                    staticClass: "event",
-                    attrs: { "data-date": "28 Juni - 6 Juli" }
-                  },
-                  [
-                    _c("h3", [_vm._v("PPDB SMA Tahap 2")]),
-                    _vm._v(" "),
-                    _c("p", [_vm._v("Pendaftaran SMA Jalur Zonasi.")])
-                  ]
-                )
-              ])
             ])
           ])
         ])
