@@ -26,27 +26,27 @@ class Zonasi extends Model
             ->get();
         $pemilih2LuarKuota = [];
         $sisaKuota = $kuotaAllSekolah[$zon_id] - count($pemilih1);
-//        if (count($pemilih1) < $kuotaAllSekolah[$zon_id])
-//        {
-//            $pemilih2 = $this->db()->where([
-//                'pilihan2' => $zon_id,
-//            ])->orderBy('jarak2', 'asc')
-//                ->leftJoin('data_siswa', 'calon_siswa_smp_zonasi.nik_siswa', '=', 'data_siswa.nik')
-//                ->get();
-//            foreach ($pemilih2 as $p) {
-//                if ($sisaKuota > 0) {
-//                    $getPendaftarDia = $this->db()->where('pilihan1', $p->pilihan1)->orderBy('jarak1', 'asc')->skip($kuotaAllSekolah[$p->pilihan1])->limit(1000)->get();
-//                    if (count($getPendaftarDia) > 0) {
-//                        foreach ($getPendaftarDia as $g) {
-//                            if ($g->id == $p->id) {
-//                                $pemilih2LuarKuota[] = $p;
-//                                $sisaKuota = $sisaKuota - 1;
-//                            }
-//                        }
-//                    }
-//                }
-//            }
-//        }
+        if (count($pemilih1) < $kuotaAllSekolah[$zon_id])
+        {
+            $pemilih2 = $this->db()->where([
+                'pilihan2' => $zon_id,
+            ])->orderBy('jarak2', 'asc')
+                ->leftJoin('data_siswa', 'calon_siswa_smp_zonasi.nik_siswa', '=', 'data_siswa.nik')
+                ->get();
+            foreach ($pemilih2 as $p) {
+                if ($sisaKuota > 0) {
+                    $getPendaftarDia = $this->db()->where('pilihan1', $p->pilihan1)->orderBy('jarak1', 'asc')->skip($kuotaAllSekolah[$p->pilihan1])->limit(1000)->get();
+                    if (count($getPendaftarDia) > 0) {
+                        foreach ($getPendaftarDia as $g) {
+                            if ($g->id == $p->id) {
+                                $pemilih2LuarKuota[] = $p;
+                                $sisaKuota = $sisaKuota - 1;
+                            }
+                        }
+                    }
+                }
+            }
+        }
         $pesertas = [];
         $pesertass = [];
         $pemilih1s = [];
