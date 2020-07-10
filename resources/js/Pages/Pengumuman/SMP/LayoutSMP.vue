@@ -7,7 +7,7 @@
                         <div class="cover">
                             <div class="gray-shade"></div>
                             <figure>
-                                <img :src="$route('depan.index') + 'img/slide.jpeg'" class="img-fluid" alt="profile cover">
+                                <img :src="$route('depan.index') + 'img/dsa.jpg'" class="img-fluid" alt="profile cover">
                             </figure>
                             <div class="cover-body d-flex justify-content-between align-items-center">
                                 <div>

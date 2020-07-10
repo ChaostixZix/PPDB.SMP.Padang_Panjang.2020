@@ -3,7 +3,7 @@
         <div class="col-12">
             <div class="row">
                 <div class="col-12">
-<!--                    <div class="jumbotron" :style="'background-image: url('+ $route('depan.index')+'/img/slide.jpeg); background-repeat: no-repeat; background-size: 100% 100%;'">-->
+<!--                    <div class="jumbotron" :style="'background-image: url('+ $route('depan.index')+'/img/dsa.jpg); background-repeat: no-repeat; background-size: 100% 100%;'">-->
 <!--                    </div>-->
                     <div class="jumbotron bg-primary">
                         <h4 class="text-white text-center">Selamat Datang di Pengumuman PPDB Padang Panjang</h4>
