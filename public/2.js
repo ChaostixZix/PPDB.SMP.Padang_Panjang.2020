@@ -343,7 +343,7 @@ var render = function() {
                 _c("img", {
                   staticClass: "img-fluid",
                   attrs: {
-                    src: _vm.$route("depan.index") + "img/slide.jpeg",
+                    src: _vm.$route("depan.index") + "img/dsa.jpg",
                     alt: "profile cover"
                   }
                 })
