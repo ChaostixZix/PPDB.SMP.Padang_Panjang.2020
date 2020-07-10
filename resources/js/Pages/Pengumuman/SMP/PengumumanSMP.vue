@@ -12,24 +12,6 @@
                         </div>
                     </div>
                 </div>
-                <br>
-                <div class="card">
-                    <div class="card-body">
-                        <h6 class="card-title">Timeline</h6>
-                        <div id="content">
-                            <ul class="timeline">
-                                <li class="event" data-date="22 Juni - 27 Juni">
-                                    <h3>PPDB SMA Tahap 1</h3>
-                                    <p>Pendaftaran SMA Jalur Prestasi, Afirmasi, dan Pindah Tugas.</p>
-                                </li>
-                                <li class="event" data-date="28 Juni - 6 Juli">
-                                    <h3>PPDB SMA Tahap 2</h3>
-                                    <p>Pendaftaran SMA Jalur Zonasi.</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </LayoutSMP>

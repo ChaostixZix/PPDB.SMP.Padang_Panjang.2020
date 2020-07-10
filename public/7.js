@@ -119,6 +119,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Depan",
@@ -297,13 +300,11 @@ var render = function() {
     _c("div", { staticClass: "col-12" }, [
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-12" }, [
-          _c("div", {
-            staticClass: "jumbotron",
-            style:
-              "background-image: url(" +
-              _vm.$route("depan.index") +
-              "/img/slide.jpeg); background-repeat: no-repeat; background-size: 100% 100%;"
-          })
+          _c("div", { staticClass: "jumbotron bg-primary" }, [
+            _c("h4", { staticClass: "text-white text-center" }, [
+              _vm._v("Selamat Datang di Pengumuman PPDB Padang Panjang")
+            ])
+          ])
         ])
       ]),
       _vm._v(" "),
@@ -311,7 +312,9 @@ var render = function() {
         _c("div", { staticClass: "col-lg-4 row-cols-1 col-12" }, [
           _c("div", { staticClass: "card" }, [
             _c("div", { staticClass: "card-header" }, [
-              _vm._v("\n                        Info\n                    ")
+              _vm._v(
+                "\n                            Info\n                        "
+              )
             ]),
             _vm._v(" "),
             _c(
@@ -326,7 +329,7 @@ var render = function() {
                   },
                   [
                     _vm._v(
-                      "\n                            Pengumuman\n                        "
+                      "\n                                Pengumuman\n                            "
                     )
                   ]
                 )

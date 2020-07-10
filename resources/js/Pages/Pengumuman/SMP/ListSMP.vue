@@ -1,12 +1,12 @@
 <template>
     <App>
         <div class="col-12">
-            <div class="row">
-                <div class="col-12">
-                    <div class="jumbotron" :style="'background-image: url(' + $route('depan.index')+ 'img/slide.jpeg); background-repeat: no-repeat; background-size: 100% 100%;'">
-                    </div>
-                </div>
-            </div>
+<!--            <div class="row">-->
+<!--                <div class="col-12">-->
+<!--                    <div class="jumbotron" :style="'background-image: url(' + $route('depan.index')+ 'img/slide.jpeg); background-repeat: no-repeat; background-size: 100% 100%;'">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
             <div class="row">
                 <div class="col-12">
                     <div class="card">
