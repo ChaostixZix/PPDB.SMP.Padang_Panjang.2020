@@ -28,5 +28,7 @@ Route::group(['prefix' => 'pengumuman'], function ()
         Route::get('', [\App\Http\Controllers\Pengumuman\SMPController::class, 'index'])->name('pengumuman.smp.index');
         Route::get('pengumuman/{smp_id}', [\App\Http\Controllers\Pengumuman\SMPController::class, 'pengumuman'])->name('pengumuman.smp.pengumuman');
         Route::get('zonasi/{smp_id}', [\App\Http\Controllers\Pengumuman\SMPController::class, 'zonasi'])->name('pengumuman.smp.zonasi');
+        Route::get('afirmasi/{smp_id}', [\App\Http\Controllers\Pengumuman\SMPController::class, 'afirmasi'])->name('pengumuman.smp.afirmasi');
+        Route::get('pindahtugas/{smp_id}', [\App\Http\Controllers\Pengumuman\SMPController::class, 'pindahtugas'])->name('pengumuman.smp.pindahtugas');
     });
 });

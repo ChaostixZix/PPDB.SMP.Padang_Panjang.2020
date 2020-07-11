@@ -20,13 +20,8 @@
                                 <tbody>
                                 <tr v-for="p in paginated" role="row" class="odd">
                                     <td>{{ p.nomer }}</td>
-                                    <td>{{ p.nm_pes }}</td>
-                                    <td>
-                                        <a v-if="p.status === 0" class="btn btn-sm btn-outline-warning">Tidak
-                                            Diterima</a>
-                                        <a v-else-if="p.status === 1"
-                                           class="btn btn-sm btn-outline-success">Diterima</a>
-                                    </td>
+                                    <td v-if="p.nama !== null">{{ p.nama }}</td>
+                                    <td v-else>{{ p.nama_siswa }}</td>
                                 </tr>
                                 </tbody>
                             </Datatable>
@@ -72,7 +67,6 @@
             let columns = [
                 {width: '33%', label: '#', name: 'nomer'},
                 {width: '33%', label: 'Nama', name: 'nm_pes'},
-                {width: '33%', label: 'Status', name: 'status'},
             ];
             columns.forEach((column) => {
                 sortOrders[column.name] = -1;

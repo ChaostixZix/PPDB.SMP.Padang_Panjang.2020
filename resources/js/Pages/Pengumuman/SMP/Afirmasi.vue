@@ -1,5 +1,5 @@
 <template>
-    <LayoutSMA :datasma="datasma">
+    <LayoutSMA :smp="smp">
         <div class="card">
             <div class="card-header bg-info text-white">
                 Afirmasi -
@@ -18,7 +18,7 @@
         components: {TableSMA, LayoutSMA},
         props: {
             pesertas: Array,
-            datasma: Object
+            smp: Object
         },
     };
 </script>
