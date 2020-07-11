@@ -3,8 +3,10 @@
 namespace App\Http\Controllers\Pengumuman;
 
 use App\Http\Controllers\Controller;
+use App\Pendaftar\SMP\Afirmasi;
+use App\Pendaftar\SMP\PindahTugas;
+use App\Pendaftar\SMP\Prestasi;
 use App\Pendaftar\SMP\Zonasi;
-use App\Sistem\SMA;
 use App\Sistem\SMP;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
@@ -33,6 +35,35 @@ class SMPController extends Controller
         return Inertia::render('Pengumuman/SMP/Zonasi', [
             'smp' => $data,
             'pesertass' => $pserta[6],
+        ]);
+    }
+
+    public function pindahtugas($zon_id)
+    {
+        $data = (new SMP())->get($zon_id);
+        $pserta = (new PindahTugas())->getPendaftarBySekolah($zon_id);
+        return Inertia::render('Pengumuman/SMP/PindahTugas', [
+            'smp' => $data,
+            'pesertas' => $pserta,
+        ]);
+    }
+
+    public function afirmasi($zon_id)
+    {
+        $data = (new SMP())->get($zon_id);
+        $pserta = (new Afirmasi())->getPendaftarBySekolah($zon_id);
+        return Inertia::render('Pengumuman/SMP/Afirmasi', [
+            'smp' => $data,
+            'pesertas' => $pserta,
+        ]);
+    }
+    public function prestasi($zon_id)
+    {
+        $data = (new SMP())->get($zon_id);
+        $pserta = (new Prestasi())->getPendaftarBySekolah($zon_id);
+        return Inertia::render('Pengumuman/SMP/Prestasi', [
+            'smp' => $data,
+            'pesertas' => $pserta,
         ]);
     }
 }

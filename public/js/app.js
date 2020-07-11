@@ -60373,105 +60373,105 @@ module.exports = g;
 var map = {
 	"./Depan": [
 		"./resources/js/Pages/Depan.vue",
-		7
+		3
 	],
 	"./Depan.vue": [
 		"./resources/js/Pages/Depan.vue",
-		7
+		3
 	],
 	"./Pengumuman/SMP/Afirmasi": [
 		"./resources/js/Pages/Pengumuman/SMP/Afirmasi.vue",
 		0,
-		2,
-		4,
-		19
+		1,
+		5,
+		10
 	],
 	"./Pengumuman/SMP/Afirmasi.vue": [
 		"./resources/js/Pages/Pengumuman/SMP/Afirmasi.vue",
 		0,
-		2,
-		4,
-		19
+		1,
+		5,
+		10
 	],
 	"./Pengumuman/SMP/LayoutSMP": [
 		"./resources/js/Pages/Pengumuman/SMP/LayoutSMP.vue",
-		2,
-		5
+		1,
+		13
 	],
 	"./Pengumuman/SMP/LayoutSMP.vue": [
 		"./resources/js/Pages/Pengumuman/SMP/LayoutSMP.vue",
-		2,
-		5
+		1,
+		13
 	],
 	"./Pengumuman/SMP/ListSMP": [
 		"./resources/js/Pages/Pengumuman/SMP/ListSMP.vue",
-		10
+		4
 	],
 	"./Pengumuman/SMP/ListSMP.vue": [
 		"./resources/js/Pages/Pengumuman/SMP/ListSMP.vue",
-		10
+		4
 	],
 	"./Pengumuman/SMP/PengumumanSMP": [
 		"./resources/js/Pages/Pengumuman/SMP/PengumumanSMP.vue",
-		2,
-		3
+		1,
+		6
 	],
 	"./Pengumuman/SMP/PengumumanSMP.vue": [
 		"./resources/js/Pages/Pengumuman/SMP/PengumumanSMP.vue",
-		2,
-		3
+		1,
+		6
 	],
 	"./Pengumuman/SMP/PindahTugas": [
 		"./resources/js/Pages/Pengumuman/SMP/PindahTugas.vue",
 		0,
-		2,
-		4,
-		20
+		1,
+		5,
+		11
 	],
 	"./Pengumuman/SMP/PindahTugas.vue": [
 		"./resources/js/Pages/Pengumuman/SMP/PindahTugas.vue",
 		0,
-		2,
-		4,
-		20
+		1,
+		5,
+		11
 	],
 	"./Pengumuman/SMP/Prestasi": [
 		"./resources/js/Pages/Pengumuman/SMP/Prestasi.vue",
 		0,
-		2,
-		4,
-		21
+		1,
+		5,
+		12
 	],
 	"./Pengumuman/SMP/Prestasi.vue": [
 		"./resources/js/Pages/Pengumuman/SMP/Prestasi.vue",
 		0,
-		2,
-		4,
-		21
+		1,
+		5,
+		12
 	],
 	"./Pengumuman/SMP/TableSMA": [
 		"./resources/js/Pages/Pengumuman/SMP/TableSMA.vue",
 		0,
-		2,
-		4
+		1,
+		5
 	],
 	"./Pengumuman/SMP/TableSMA.vue": [
 		"./resources/js/Pages/Pengumuman/SMP/TableSMA.vue",
 		0,
-		2,
-		4
+		1,
+		5
 	],
 	"./Pengumuman/SMP/Zonasi": [
 		"./resources/js/Pages/Pengumuman/SMP/Zonasi.vue",
 		0,
-		2,
-		22
+		1,
+		9
 	],
 	"./Pengumuman/SMP/Zonasi.vue": [
 		"./resources/js/Pages/Pengumuman/SMP/Zonasi.vue",
 		0,
-		2,
-		22
+		1,
+		9
 	]
 };
 function webpackAsyncContext(req) {

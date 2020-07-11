@@ -142,18 +142,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "LayoutSMP",
@@ -162,66 +150,6 @@ __webpack_require__.r(__webpack_exports__);
   },
   components: {
     App: _Layout_App__WEBPACK_IMPORTED_MODULE_0__["default"]
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/Pengumuman/SMP/PengumumanSMP.vue?vue&type=script&lang=js&":
-/*!**********************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Pages/Pengumuman/SMP/PengumumanSMP.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _LayoutSMP__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./LayoutSMP */ "./resources/js/Pages/Pengumuman/SMP/LayoutSMP.vue");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  name: "PengumumanSMP",
-  components: {
-    LayoutSMP: _LayoutSMP__WEBPACK_IMPORTED_MODULE_0__["default"]
-  },
-  props: {
-    smp: Object
   }
 });
 
@@ -273,7 +201,7 @@ var staticRenderFns = [
           _c(
             "a",
             { attrs: { href: "https://www.nobleui.com", target: "_blank" } },
-            [_vm._v("Provinsi Bengkulu")]
+            [_vm._v("Padang Panjang")]
           ),
           _vm._v(". All rights\n                    reserved")
         ])
@@ -307,10 +235,10 @@ var render = function() {
     [
       _c(
         "b-navbar",
-        { attrs: { toggleable: "lg", type: "dark", variant: "info" } },
+        { attrs: { toggleable: "lg", type: "dark", variant: "primary" } },
         [
           _c("b-navbar-brand", { attrs: { href: "#" } }, [
-            _vm._v("PPDB Bengkulu")
+            _vm._v("PPDB Padang Panjang")
           ]),
           _vm._v(" "),
           _c("b-navbar-toggle", { attrs: { target: "nav-collapse" } }),
@@ -376,10 +304,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/Pengumuman/SMP/PengumumanSMP.vue?vue&type=template&id=5f314792&scoped=true&":
-/*!**************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Pages/Pengumuman/SMP/PengumumanSMP.vue?vue&type=template&id=5f314792&scoped=true& ***!
-  \**************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/Pengumuman/SMP/LayoutSMP.vue?vue&type=template&id=d133fd10&scoped=true&":
+/*!**********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Pages/Pengumuman/SMP/LayoutSMP.vue?vue&type=template&id=d133fd10&scoped=true& ***!
+  \**********************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -391,64 +319,157 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("LayoutSMP", { attrs: { smp: _vm.smp } }, [
-    _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-md-12 grid-margin" }, [
-        _c("div", { staticClass: "card rounded" }, [
-          _c("div", { staticClass: "card-header" }, [
-            _vm._v("\n                    Menu\n                ")
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "card-body" }, [
-            _c("div", { staticClass: "alert alert-info" }, [
-              _vm._v(
-                "\n                        Hasil pengumuman Zonasi telah dibuka. Silahkan melihat di menu Zonasi\n                    "
+  return _c("App", [
+    _c("div", { staticClass: "profile-page tx-13" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-12 grid-margin" }, [
+          _c("div", { staticClass: "profile-header" }, [
+            _c("div", { staticClass: "cover" }, [
+              _c("div", { staticClass: "gray-shade" }),
+              _vm._v(" "),
+              _c("figure", [
+                _c("img", {
+                  staticClass: "img-fluid",
+                  attrs: {
+                    src: _vm.$route("depan.index") + "img/dsa.jpg",
+                    alt: "profile cover"
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "cover-body d-flex justify-content-between align-items-center"
+                },
+                [
+                  _c("div", [
+                    _c("img", {
+                      staticClass: "profile-pic",
+                      attrs: {
+                        src: _vm.$route("depan.index") + "img/sma.png",
+                        alt: "profile"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("span", { staticClass: "profile-name" }, [
+                      _vm._v(_vm._s(_vm.smp.sekolah))
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "header-links" }, [
+              _c(
+                "ul",
+                { staticClass: "links d-flex align-items-center mt-3 mt-md-0" },
+                [
+                  _c(
+                    "li",
+                    {
+                      staticClass: "header-link-item d-flex align-items-center"
+                    },
+                    [
+                      _c(
+                        "InertiaLink",
+                        {
+                          staticClass: "pt-1px d-none d-md-block",
+                          attrs: {
+                            href: _vm.$route("pengumuman.smp.pengumuman", {
+                              smp_id: _vm.smp.zon_id
+                            })
+                          }
+                        },
+                        [_vm._v("Home")]
+                      )
+                    ],
+                    1
+                  )
+                ]
+              )
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row profile-body" }, [
+        _c("div", { staticClass: "col-md-4 col-xl-3 left-wrapper mb-1" }, [
+          _c("div", { staticClass: "card rounded" }, [
+            _c("div", { staticClass: "card-body" }, [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "d-flex align-items-center justify-content-between mb-2"
+                },
+                [
+                  _c("h6", { staticClass: "card-title mb-0" }, [
+                    _vm._v("Pengumuman")
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "alert alert-info" }, [
+                _vm._v(_vm._s(_vm.smp.tulisan))
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "list-group" },
+                [
+                  _c(
+                    "InertiaLink",
+                    {
+                      staticClass: "list-group-item list-group-item-action",
+                      attrs: {
+                        href: _vm.$route("pengumuman.smp.zonasi", {
+                          smp_id: _vm.smp.zon_id
+                        })
+                      }
+                    },
+                    [_vm._v("Zonasi")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "InertiaLink",
+                    {
+                      staticClass: "list-group-item list-group-item-action",
+                      attrs: {
+                        href: _vm.$route("pengumuman.smp.afirmasi", {
+                          smp_id: _vm.smp.zon_id
+                        })
+                      }
+                    },
+                    [_vm._v("Afirmasi")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "InertiaLink",
+                    {
+                      staticClass: "list-group-item list-group-item-action",
+                      attrs: {
+                        href: _vm.$route("pengumuman.smp.pindahtugas", {
+                          smp_id: _vm.smp.zon_id
+                        })
+                      }
+                    },
+                    [_vm._v("Pindah Tugas")]
+                  )
+                ],
+                1
               )
             ])
           ])
         ]),
         _vm._v(" "),
-        _c("br"),
-        _vm._v(" "),
-        _c("div", { staticClass: "card" }, [
-          _c("div", { staticClass: "card-body" }, [
-            _c("h6", { staticClass: "card-title" }, [_vm._v("Timeline")]),
-            _vm._v(" "),
-            _c("div", { attrs: { id: "content" } }, [
-              _c("ul", { staticClass: "timeline" }, [
-                _c(
-                  "li",
-                  {
-                    staticClass: "event",
-                    attrs: { "data-date": "22 Juni - 27 Juni" }
-                  },
-                  [
-                    _c("h3", [_vm._v("PPDB SMA Tahap 1")]),
-                    _vm._v(" "),
-                    _c("p", [
-                      _vm._v(
-                        "Pendaftaran SMA Jalur Prestasi, Afirmasi, dan Pindah Tugas."
-                      )
-                    ])
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "li",
-                  {
-                    staticClass: "event",
-                    attrs: { "data-date": "28 Juni - 6 Juli" }
-                  },
-                  [
-                    _c("h3", [_vm._v("PPDB SMA Tahap 2")]),
-                    _vm._v(" "),
-                    _c("p", [_vm._v("Pendaftaran SMA Jalur Zonasi.")])
-                  ]
-                )
-              ])
-            ])
-          ])
-        ])
+        _c(
+          "div",
+          { staticClass: "col-md-8 col-xl-9 middle-wrapper" },
+          [_vm._t("default")],
+          2
+        )
       ])
     ])
   ])
@@ -456,118 +477,6 @@ var render = function() {
 var staticRenderFns = []
 render._withStripped = true
 
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js":
-/*!********************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/runtime/componentNormalizer.js ***!
-  \********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return normalizeComponent; });
-/* globals __VUE_SSR_CONTEXT__ */
-
-// IMPORTANT: Do NOT use ES2015 features in this file (except for modules).
-// This module is a runtime utility for cleaner component module output and will
-// be included in the final webpack user bundle.
-
-function normalizeComponent (
-  scriptExports,
-  render,
-  staticRenderFns,
-  functionalTemplate,
-  injectStyles,
-  scopeId,
-  moduleIdentifier, /* server only */
-  shadowMode /* vue-cli only */
-) {
-  // Vue.extend constructor export interop
-  var options = typeof scriptExports === 'function'
-    ? scriptExports.options
-    : scriptExports
-
-  // render functions
-  if (render) {
-    options.render = render
-    options.staticRenderFns = staticRenderFns
-    options._compiled = true
-  }
-
-  // functional template
-  if (functionalTemplate) {
-    options.functional = true
-  }
-
-  // scopedId
-  if (scopeId) {
-    options._scopeId = 'data-v-' + scopeId
-  }
-
-  var hook
-  if (moduleIdentifier) { // server build
-    hook = function (context) {
-      // 2.3 injection
-      context =
-        context || // cached call
-        (this.$vnode && this.$vnode.ssrContext) || // stateful
-        (this.parent && this.parent.$vnode && this.parent.$vnode.ssrContext) // functional
-      // 2.2 with runInNewContext: true
-      if (!context && typeof __VUE_SSR_CONTEXT__ !== 'undefined') {
-        context = __VUE_SSR_CONTEXT__
-      }
-      // inject component styles
-      if (injectStyles) {
-        injectStyles.call(this, context)
-      }
-      // register component module identifier for async chunk inferrence
-      if (context && context._registeredComponents) {
-        context._registeredComponents.add(moduleIdentifier)
-      }
-    }
-    // used by ssr in case component is cached and beforeCreate
-    // never gets called
-    options._ssrRegister = hook
-  } else if (injectStyles) {
-    hook = shadowMode
-      ? function () {
-        injectStyles.call(
-          this,
-          (options.functional ? this.parent : this).$root.$options.shadowRoot
-        )
-      }
-      : injectStyles
-  }
-
-  if (hook) {
-    if (options.functional) {
-      // for template-only hot-reload because in that case the render fn doesn't
-      // go through the normalizer
-      options._injectStyles = hook
-      // register for functional component in vue file
-      var originalRender = options.render
-      options.render = function renderWithStyleInjection (h, context) {
-        hook.call(context)
-        return originalRender(h, context)
-      }
-    } else {
-      // inject component registration as beforeCreate hook
-      var existing = options.beforeCreate
-      options.beforeCreate = existing
-        ? [].concat(existing, hook)
-        : [hook]
-    }
-  }
-
-  return {
-    exports: scriptExports,
-    options: options
-  }
-}
 
 
 /***/ }),
@@ -719,21 +628,20 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _LayoutSMP_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./LayoutSMP.vue?vue&type=script&lang=js& */ "./resources/js/Pages/Pengumuman/SMP/LayoutSMP.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-/* harmony import */ var _LayoutSMP_vue_vue_type_custom_index_0_blockType_LayoutSMP__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./LayoutSMP.vue?vue&type=custom&index=0&blockType=LayoutSMP */ "./resources/js/Pages/Pengumuman/SMP/LayoutSMP.vue?vue&type=custom&index=0&blockType=LayoutSMP");
-/* harmony import */ var _LayoutSMP_vue_vue_type_custom_index_0_blockType_LayoutSMP__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_LayoutSMP_vue_vue_type_custom_index_0_blockType_LayoutSMP__WEBPACK_IMPORTED_MODULE_2__);
-var render, staticRenderFns
+/* harmony import */ var _LayoutSMP_vue_vue_type_template_id_d133fd10_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./LayoutSMP.vue?vue&type=template&id=d133fd10&scoped=true& */ "./resources/js/Pages/Pengumuman/SMP/LayoutSMP.vue?vue&type=template&id=d133fd10&scoped=true&");
+/* harmony import */ var _LayoutSMP_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./LayoutSMP.vue?vue&type=script&lang=js& */ "./resources/js/Pages/Pengumuman/SMP/LayoutSMP.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 
 
 
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
-  _LayoutSMP_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"],
-  render,
-  staticRenderFns,
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _LayoutSMP_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _LayoutSMP_vue_vue_type_template_id_d133fd10_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _LayoutSMP_vue_vue_type_template_id_d133fd10_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   "d133fd10",
@@ -741,25 +649,10 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
   
 )
 
-/* custom blocks */
-
-if (typeof _LayoutSMP_vue_vue_type_custom_index_0_blockType_LayoutSMP__WEBPACK_IMPORTED_MODULE_2___default.a === 'function') _LayoutSMP_vue_vue_type_custom_index_0_blockType_LayoutSMP__WEBPACK_IMPORTED_MODULE_2___default()(component)
-
 /* hot reload */
 if (false) { var api; }
 component.options.__file = "resources/js/Pages/Pengumuman/SMP/LayoutSMP.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/Pages/Pengumuman/SMP/LayoutSMP.vue?vue&type=custom&index=0&blockType=LayoutSMP":
-/*!*****************************************************************************************************!*\
-  !*** ./resources/js/Pages/Pengumuman/SMP/LayoutSMP.vue?vue&type=custom&index=0&blockType=LayoutSMP ***!
-  \*****************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
 
 /***/ }),
 
@@ -777,70 +670,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/Pages/Pengumuman/SMP/PengumumanSMP.vue":
-/*!*************************************************************!*\
-  !*** ./resources/js/Pages/Pengumuman/SMP/PengumumanSMP.vue ***!
-  \*************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _PengumumanSMP_vue_vue_type_template_id_5f314792_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PengumumanSMP.vue?vue&type=template&id=5f314792&scoped=true& */ "./resources/js/Pages/Pengumuman/SMP/PengumumanSMP.vue?vue&type=template&id=5f314792&scoped=true&");
-/* harmony import */ var _PengumumanSMP_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PengumumanSMP.vue?vue&type=script&lang=js& */ "./resources/js/Pages/Pengumuman/SMP/PengumumanSMP.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _PengumumanSMP_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _PengumumanSMP_vue_vue_type_template_id_5f314792_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _PengumumanSMP_vue_vue_type_template_id_5f314792_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  "5f314792",
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/Pages/Pengumuman/SMP/PengumumanSMP.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/Pages/Pengumuman/SMP/PengumumanSMP.vue?vue&type=script&lang=js&":
-/*!**************************************************************************************!*\
-  !*** ./resources/js/Pages/Pengumuman/SMP/PengumumanSMP.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_PengumumanSMP_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./PengumumanSMP.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/Pengumuman/SMP/PengumumanSMP.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_PengumumanSMP_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/Pages/Pengumuman/SMP/PengumumanSMP.vue?vue&type=template&id=5f314792&scoped=true&":
-/*!********************************************************************************************************!*\
-  !*** ./resources/js/Pages/Pengumuman/SMP/PengumumanSMP.vue?vue&type=template&id=5f314792&scoped=true& ***!
-  \********************************************************************************************************/
+/***/ "./resources/js/Pages/Pengumuman/SMP/LayoutSMP.vue?vue&type=template&id=d133fd10&scoped=true&":
+/*!****************************************************************************************************!*\
+  !*** ./resources/js/Pages/Pengumuman/SMP/LayoutSMP.vue?vue&type=template&id=d133fd10&scoped=true& ***!
+  \****************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PengumumanSMP_vue_vue_type_template_id_5f314792_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./PengumumanSMP.vue?vue&type=template&id=5f314792&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/Pengumuman/SMP/PengumumanSMP.vue?vue&type=template&id=5f314792&scoped=true&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PengumumanSMP_vue_vue_type_template_id_5f314792_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LayoutSMP_vue_vue_type_template_id_d133fd10_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./LayoutSMP.vue?vue&type=template&id=d133fd10&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/Pengumuman/SMP/LayoutSMP.vue?vue&type=template&id=d133fd10&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LayoutSMP_vue_vue_type_template_id_d133fd10_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PengumumanSMP_vue_vue_type_template_id_5f314792_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LayoutSMP_vue_vue_type_template_id_d133fd10_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

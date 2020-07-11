@@ -21,18 +21,6 @@
                                 <li class="header-link-item d-flex align-items-center">
                                     <InertiaLink class="pt-1px d-none d-md-block" :href="$route('pengumuman.smp.pengumuman', {smp_id: smp.zon_id})">Home</InertiaLink>
                                 </li>
-                                <li class="header-link-item ml-3 pl-3 border-left d-flex align-items-center">
-                                    <InertiaLink class="pt-1px d-none d-md-block" :href="$route('pengumuman.smp.zonasi', {smp_id: smp.zon_id})">Zonasi</InertiaLink>
-                                </li>
-                                <!--                                <li class="header-link-item ml-3 pl-3 border-left d-flex align-items-center">-->
-                                <!--                                    <InertiaLink class="pt-1px d-none d-md-block" :href="$route('pengumuman.sma.afirmasi', {sma_id: smp.sma_id})">Afirmasi</InertiaLink>-->
-                                <!--                                </li>-->
-                                <!--                                <li class="header-link-item ml-3 pl-3 border-left d-flex align-items-center">-->
-                                <!--                                    <InertiaLink class="pt-1px d-none d-md-block" :href="$route('pengumuman.sma.prestasi', {sma_id: smp.sma_id})">Prestasi</InertiaLink>-->
-                                <!--                                </li>-->
-                                <!--                                <li class="header-link-item ml-3 pl-3 border-left d-flex align-items-center">-->
-                                <!--                                    <InertiaLink class="pt-1px d-none d-md-block" :href="$route('pengumuman.sma.pindahtugas', {sma_id: smp.sma_id})">Pindah Tugas</InertiaLink>-->
-                                <!--                                </li>-->
                             </ul>
                         </div>
                     </div>
@@ -43,13 +31,13 @@
                     <div class="card rounded">
                         <div class="card-body">
                             <div class="d-flex align-items-center justify-content-between mb-2">
-                                <h6 class="card-title mb-0">Pengumuman Jurusan</h6>
+                                <h6 class="card-title mb-0">Pengumuman</h6>
                             </div>
+                            <div class="alert alert-info">{{smp.tulisan}}</div>
                             <div class="list-group">
                                 <InertiaLink :href="$route('pengumuman.smp.zonasi', {smp_id: smp.zon_id})" class="list-group-item list-group-item-action">Zonasi</InertiaLink>
-                                <!--                                <InertiaLink :href="$route('pengumuman.sma.prestasi', {sma_id: smp.sma_id})" class="list-group-item list-group-item-action">Prestasi</InertiaLink>-->
-                                <!--                                <InertiaLink :href="$route('pengumuman.sma.afirmasi', {sma_id: smp.sma_id})" class="list-group-item list-group-item-action">Afirmasi</InertiaLink>-->
-                                <!--                                <InertiaLink :href="$route('pengumuman.sma.pindahtugas', {sma_id: smp.sma_id})" class="list-group-item list-group-item-action">Pindah Tugas</InertiaLink>-->
+                                <InertiaLink :href="$route('pengumuman.smp.afirmasi', {smp_id: smp.zon_id})" class="list-group-item list-group-item-action">Afirmasi</InertiaLink>
+                                <InertiaLink :href="$route('pengumuman.smp.pindahtugas', {smp_id: smp.zon_id})" class="list-group-item list-group-item-action">Pindah Tugas</InertiaLink>
                             </div>
                         </div>
                     </div>
