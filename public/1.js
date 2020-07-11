@@ -142,6 +142,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "LayoutSMP",
@@ -456,6 +457,19 @@ var render = function() {
                       }
                     },
                     [_vm._v("Pindah Tugas")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "InertiaLink",
+                    {
+                      staticClass: "list-group-item list-group-item-action",
+                      attrs: {
+                        href: _vm.$route("pengumuman.smp.prestasi", {
+                          smp_id: _vm.smp.zon_id
+                        })
+                      }
+                    },
+                    [_vm._v("Prestasi")]
                   )
                 ],
                 1

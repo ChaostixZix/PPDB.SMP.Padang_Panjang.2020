@@ -30,5 +30,6 @@ Route::group(['prefix' => 'pengumuman'], function ()
         Route::get('zonasi/{smp_id}', [\App\Http\Controllers\Pengumuman\SMPController::class, 'zonasi'])->name('pengumuman.smp.zonasi');
         Route::get('afirmasi/{smp_id}', [\App\Http\Controllers\Pengumuman\SMPController::class, 'afirmasi'])->name('pengumuman.smp.afirmasi');
         Route::get('pindahtugas/{smp_id}', [\App\Http\Controllers\Pengumuman\SMPController::class, 'pindahtugas'])->name('pengumuman.smp.pindahtugas');
+        Route::get('prestasi/{smp_id}', [\App\Http\Controllers\Pengumuman\SMPController::class, 'prestasi'])->name('pengumuman.smp.prestasi');
     });
 });

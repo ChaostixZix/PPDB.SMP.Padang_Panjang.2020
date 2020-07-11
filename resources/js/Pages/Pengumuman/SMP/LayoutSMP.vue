@@ -38,6 +38,7 @@
                                 <InertiaLink :href="$route('pengumuman.smp.zonasi', {smp_id: smp.zon_id})" class="list-group-item list-group-item-action">Zonasi</InertiaLink>
                                 <InertiaLink :href="$route('pengumuman.smp.afirmasi', {smp_id: smp.zon_id})" class="list-group-item list-group-item-action">Afirmasi</InertiaLink>
                                 <InertiaLink :href="$route('pengumuman.smp.pindahtugas', {smp_id: smp.zon_id})" class="list-group-item list-group-item-action">Pindah Tugas</InertiaLink>
+                                <InertiaLink :href="$route('pengumuman.smp.prestasi', {smp_id: smp.zon_id})" class="list-group-item list-group-item-action">Prestasi</InertiaLink>
                             </div>
                         </div>
                     </div>
