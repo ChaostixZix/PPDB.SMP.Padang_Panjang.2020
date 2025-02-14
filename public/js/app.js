@@ -60373,105 +60373,113 @@ module.exports = g;
 var map = {
 	"./Depan": [
 		"./resources/js/Pages/Depan.vue",
+		2,
 		3
 	],
 	"./Depan.vue": [
 		"./resources/js/Pages/Depan.vue",
+		2,
 		3
 	],
 	"./Pengumuman/SMP/Afirmasi": [
 		"./resources/js/Pages/Pengumuman/SMP/Afirmasi.vue",
-		0,
+		2,
 		1,
-		5,
-		10
+		4,
+		11
 	],
 	"./Pengumuman/SMP/Afirmasi.vue": [
 		"./resources/js/Pages/Pengumuman/SMP/Afirmasi.vue",
-		0,
+		2,
 		1,
-		5,
-		10
+		4,
+		11
 	],
 	"./Pengumuman/SMP/LayoutSMP": [
 		"./resources/js/Pages/Pengumuman/SMP/LayoutSMP.vue",
 		1,
-		13
+		16
 	],
 	"./Pengumuman/SMP/LayoutSMP.vue": [
 		"./resources/js/Pages/Pengumuman/SMP/LayoutSMP.vue",
 		1,
-		13
+		16
 	],
 	"./Pengumuman/SMP/ListSMP": [
 		"./resources/js/Pages/Pengumuman/SMP/ListSMP.vue",
-		4
+		2,
+		10
 	],
 	"./Pengumuman/SMP/ListSMP.vue": [
 		"./resources/js/Pages/Pengumuman/SMP/ListSMP.vue",
-		4
+		2,
+		10
 	],
 	"./Pengumuman/SMP/PengumumanSMP": [
 		"./resources/js/Pages/Pengumuman/SMP/PengumumanSMP.vue",
 		1,
-		6
+		7
 	],
 	"./Pengumuman/SMP/PengumumanSMP.vue": [
 		"./resources/js/Pages/Pengumuman/SMP/PengumumanSMP.vue",
 		1,
-		6
+		7
 	],
 	"./Pengumuman/SMP/PindahTugas": [
 		"./resources/js/Pages/Pengumuman/SMP/PindahTugas.vue",
-		0,
+		2,
 		1,
-		5,
-		11
+		4,
+		12
 	],
 	"./Pengumuman/SMP/PindahTugas.vue": [
 		"./resources/js/Pages/Pengumuman/SMP/PindahTugas.vue",
-		0,
+		2,
 		1,
-		5,
-		11
+		4,
+		12
 	],
 	"./Pengumuman/SMP/Prestasi": [
 		"./resources/js/Pages/Pengumuman/SMP/Prestasi.vue",
-		0,
+		2,
 		1,
-		5,
-		12
+		4,
+		13
 	],
 	"./Pengumuman/SMP/Prestasi.vue": [
 		"./resources/js/Pages/Pengumuman/SMP/Prestasi.vue",
-		0,
+		2,
 		1,
-		5,
-		12
+		4,
+		13
 	],
 	"./Pengumuman/SMP/TableSMA": [
 		"./resources/js/Pages/Pengumuman/SMP/TableSMA.vue",
-		0,
+		2,
 		1,
-		5
+		4,
+		14
 	],
 	"./Pengumuman/SMP/TableSMA.vue": [
 		"./resources/js/Pages/Pengumuman/SMP/TableSMA.vue",
-		0,
+		2,
 		1,
-		5
+		4,
+		14
 	],
 	"./Pengumuman/SMP/Zonasi": [
 		"./resources/js/Pages/Pengumuman/SMP/Zonasi.vue",
-		0,
+		2,
 		1,
-		9
+		4,
+		15
 	],
 	"./Pengumuman/SMP/Zonasi.vue": [
 		"./resources/js/Pages/Pengumuman/SMP/Zonasi.vue",
-		0,
+		2,
 		1,
-		9
+		4,
+		15
 	]
 };
 function webpackAsyncContext(req) {
@@ -60558,8 +60566,8 @@ vue__WEBPACK_IMPORTED_MODULE_1___default.a.prototype.$route = function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/chaostix/Documents/Project/PadangB/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/chaostix/Documents/Project/PadangB/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/bintangputra/project_lama/PPDB.SMP.Padang_Panjang.2020/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/bintangputra/project_lama/PPDB.SMP.Padang_Panjang.2020/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

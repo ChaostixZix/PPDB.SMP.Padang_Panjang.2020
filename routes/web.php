@@ -33,3 +33,4 @@ Route::group(['prefix' => 'pengumuman'], function ()
         Route::get('prestasi/{smp_id}', [\App\Http\Controllers\Pengumuman\SMPController::class, 'prestasi'])->name('pengumuman.smp.prestasi');
     });
 });
+Route::get('/', 'DepanController@index')->name('depan.index');

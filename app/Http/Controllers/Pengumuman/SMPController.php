@@ -10,14 +10,27 @@ use App\Pendaftar\SMP\Zonasi;
 use App\Sistem\SMP;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
+use Illuminate\Support\Facades\DB;
 
 class SMPController extends Controller
 {
     public function index()
     {
         $data = (new SMP())->getAll();
+        
+        // Count total siswa
+        $totalSiswa = DB::table('data_siswa')->count();
+        
+        // Count total pendaftar from all categories
+        $totalPendaftar = DB::table('calon_siswa_smp_zonasi')->count() +
+            DB::table('calon_siswa_prestasi')->count() +
+            DB::table('calon_siswa_afirmasi')->count() +
+            DB::table('calon_siswa_pindahtugas')->count();
+    
         return Inertia::render('Pengumuman/SMP/ListSMP', [
-            'smps' => $data
+            'smps' => $data,
+            'totalSiswa' => $totalSiswa,
+            'totalPendaftar' => $totalPendaftar
         ]);
     }
 
