@@ -2,7 +2,7 @@
 
 Sistem Informasi Penerimaan Peserta Didik Baru (PPDB) untuk SMP di Kota Padang Panjang Tahun 2020.
 
-![Dashboard Preview](screenshots/dashboard.png)
+![Dashboard Preview](screenshot/Screenshot%202025-02-15%20at%2001.44.12.png)
 
 ## About The Project
 
@@ -32,13 +32,13 @@ PPDB SMP Padang Panjang adalah sistem informasi berbasis web yang digunakan untu
 ## Screenshots
 
 ### Homepage
-![Homepage](screenshots/home.png)
+![Homepage](screenshot/Screenshot%202025-02-15%20at%2001.44.12.png)
 
 ### School List
-![School List](screenshots/schools.png)
+![School List](screenshot/Screenshot%202025-02-15%20at%2001.44.16.png)
 
 ### Announcement Page
-![Announcement](screenshots/announcement.png)
+![Announcement](screenshot/Screenshot%202025-02-15%20at%2001.44.21.png)
 
 ## Installation
 
